@@ -17,7 +17,7 @@ Cambiar tu_nombre por su primer nombre
 Deberá listada la tabla "orden" de la base de datos.  
 
 3. Ejecutar el siguiente comando de Sqoop  
-`sqoop import --driver com.mysql.jdbc.Driver --connect jdbc:mysql://10.0.0.101:3306/taller --username taller --password taller --table orden --split-by orden_trabajo_id --hive-import --hive-table tu_nombre`
+`sqoop import --driver com.mysql.jdbc.Driver --connect jdbc:mysql://10.0.0.101:3306/taller --username taller --password taller --table orden --split-by orden_trabajo_id --hive-import --hive-table default.tu_nombre`
 
 4. Revisar los archivos ingestados en el directorio HDFS  
 `hdfs dfs -ls /user/hive/warehouse/tu_nombre`
