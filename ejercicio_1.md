@@ -5,7 +5,7 @@
 Ejecutar export HADOOP_USER_NAME=hdfs
 
 Crear carpeta:
-hdfs dfs -mkdir /user/tu_nombre/ 
+hdfs dfs -mkdir /user/tu_nombre/  
 Cambiar tu_nombre por su primer nombre
 
 ### GUIA
