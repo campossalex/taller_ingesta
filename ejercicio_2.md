@@ -14,3 +14,10 @@ Entrar http://52.23.213.56:8888/hue y ejecutar la query
 3. Ver los nuevos registros  
 `SELECT orden_trabajo_id FROM tu_nombre ORDER BY orden_trabajo_id desc LIMIT 20`
 
+4. Revisar los nuevos archivos ingestados en el directorio HDFS  
+`hdfs dfs -ls /user/tu_nombre/orden_trabajo`
+
+5. Imprime el contenido de uno de los archivos  
+`hdfs dfs -cat /user/tu_nombre/orden_trabajo/part-00005`
+
+
